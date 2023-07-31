@@ -1,5 +1,4 @@
-# About
-AWS Security Group module for HPE Self-Paced Hybrid-cloud Terraform Lab
+# AWS Security Group module for HPE Self-Paced Hybrid-cloud Terraform Lab
 
 Terraform module which creates [EC2 security group within VPC](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_SecurityGroups.html) on AWS.
 
