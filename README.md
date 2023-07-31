@@ -1,8 +1,7 @@
-# AWS EC2-VPC Security Group Terraform module
+# About
+AWS Security Group module for HPE Self-Paced Hybrid-cloud Terraform Lab
 
 Terraform module which creates [EC2 security group within VPC](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_SecurityGroups.html) on AWS.
-
-[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
 
 ## Features
 
@@ -17,15 +16,9 @@ This module aims to implement **ALL** combinations of arguments supported by AWS
 
 Ingress and egress rules can be configured in a variety of ways. See [inputs section](#inputs) for all supported arguments and [complete example](https://github.com/terraform-aws-modules/terraform-aws-security-group/tree/master/examples/complete) for the complete use-case.
 
-If there is a missing feature or a bug - [open an issue](https://github.com/terraform-aws-modules/terraform-aws-security-group/issues/new).
-
 ## Terraform versions
 
-For Terraform 0.13 or later use any version from `v4.5.0` of this module or newer.
-
-For Terraform 0.12 use any version from `v3.*` to `v4.4.0`.
-
-If you are using Terraform 0.11 you can use versions `v2.*`.
+For Terraform 1.5 or later use any version from `v1.0.0` of this module or newer.
 
 ## Usage
 
@@ -159,7 +152,7 @@ No issue is creating limit on this module.
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.5 |
 | <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 3.29 |
 
 ## Providers
@@ -276,16 +269,8 @@ No modules.
 | <a name="output_security_group_vpc_id"></a> [security\_group\_vpc\_id](#output\_security\_group\_vpc\_id) | The VPC ID |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
-## Authors
-
-Module managed by [Anton Babenko](https://github.com/antonbabenko).
 
 ## License
+Module is cpoied from https://github.com/terraform-aws-modules/terraform-aws-security-group
 
 Apache 2 Licensed. See LICENSE for full details.
-
-## Additional information for users from Russia and Belarus
-
-* Russia has [illegally annexed Crimea in 2014](https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation) and [brought the war in Donbas](https://en.wikipedia.org/wiki/War_in_Donbas) followed by [full-scale invasion of Ukraine in 2022](https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine).
-* Russia has brought sorrow and devastations to millions of Ukrainians, killed hundreds of innocent people, damaged thousands of buildings, and forced several million people to flee.
-* [Putin khuylo!](https://en.wikipedia.org/wiki/Putin_khuylo!)
